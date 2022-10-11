@@ -1,0 +1,16 @@
+{
+    "name": "victor/app",
+    "description": "My first Composer init, challenge WCS Autoload",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VictorGugg",
+            "email": "victor.guggenbuhl@gmail.com"
+        }
+    ],
+    "require": {}
+}
