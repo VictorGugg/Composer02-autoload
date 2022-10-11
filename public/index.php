@@ -1,6 +1,8 @@
 <?php
 require_once '../vendor/autoload.php';
 
-$helloObject = new App\Hello;
+use App\Hello;
+
+$helloObject = new Hello;
 
 $helloObject->talk();
